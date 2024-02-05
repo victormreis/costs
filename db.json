@@ -1,27 +1,6 @@
 {
   "projects": [
     {
-      "name": "teste de msg",
-      "budget": "1500",
-      "category": {
-        "id": "4",
-        "name": "Documentação"
-      },
-      "cost": 0,
-      "services": [],
-      "id": 2
-    },
-    {
-      "name": "sdfsd",
-      "category": {
-        "id": "2",
-        "name": "Desenvolvimento"
-      },
-      "cost": 0,
-      "services": [],
-      "id": 3
-    },
-    {
       "name": "sdfsdf",
       "budget": "250",
       "category": {
@@ -33,59 +12,15 @@
       "id": 4
     },
     {
-      "name": "Victor Martins dos Reis",
-      "budget": "15",
-      "category": {
-        "id": "2",
-        "name": "Desenvolvimento"
-      },
-      "cost": 0,
-      "services": [],
-      "id": 5
-    },
-    {
-      "name": "sdfsd",
-      "budget": "26",
-      "category": {
-        "id": "2",
-        "name": "Desenvolvimento"
-      },
-      "cost": 0,
-      "services": [],
-      "id": 6
-    },
-    {
-      "name": "Victor Martins dos Reis",
-      "budget": "157",
-      "category": {
-        "id": "1",
-        "name": "Planejamento"
-      },
-      "cost": 0,
-      "services": [],
-      "id": 7
-    },
-    {
-      "name": "Victor Martins dos Reis",
-      "budget": "1500",
-      "category": {
-        "id": "1",
-        "name": "Planejamento"
-      },
-      "cost": 0,
-      "services": [],
-      "id": 9
-    },
-    {
-      "name": "Teste layout",
-      "budget": "2600",
+      "name": "Housing'",
+      "budget": "3000",
       "category": {
         "id": "3",
         "name": "Execução"
       },
       "cost": 0,
       "services": [],
-      "id": 10
+      "id": 11
     }
   ],
   "categories": [

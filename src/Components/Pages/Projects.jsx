@@ -8,6 +8,8 @@ import ProjectCard from "../project/ProjectCard";
 
 import {useState, useEffect} from "react";
 import Loading from "../layout/Loading";
+import { toast, ToastContainer, Slide } from "react-toastify";
+import 'react-toastify/dist/ReactToastify.css';
 
 const Projects = () => {
   const [projects, setProjects] = useState([]);
@@ -18,6 +20,20 @@ const Projects = () => {
   let message = "";
   if (location.state) {
     message = location.state.message;
+  }
+
+  const notify = (message) => {
+    toast.success(message, {
+      position: "top-right",
+      autoClose: 3000,
+      hideProgressBar: false,
+      closeOnClick: false,
+      pauseOnHover: true,
+      draggable: false,
+      progress: undefined,
+      theme: "colored",
+      transition: Slide
+      });
   }
 
   useEffect(() => {
@@ -36,6 +52,20 @@ const Projects = () => {
       .catch(err => console.log(err));
    }, 500);
   }, []);
+
+  const handleRemove = (id) => {
+    fetch(`http://localhost:5000/projects/${id}`, {
+      method: 'DELETE',
+      headers: {
+        'Content-Type': 'application/json'
+      },
+    }).then(response => response.json())
+    .then(data => {
+      setProjects(projects.filter(project => project.id !== id))
+      notify('Projeto Deletado!')
+    })
+    .catch(err => console.log(err))
+  }
 
   return (
     <div className={styles.project_container}>
@@ -61,6 +91,7 @@ const Projects = () => {
               budget={project.budget}
               category={project.category.name}
               key={project.id}
+              handleRemove={handleRemove}
             />
           ))}
           {!removeLoading && <Loading />}
@@ -68,6 +99,7 @@ const Projects = () => {
             <p>Não há projetos cadastrados!</p>
           ) }
       </Container>
+      <ToastContainer />
     </div>
   );
 };
