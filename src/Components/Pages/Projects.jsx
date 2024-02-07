@@ -50,7 +50,7 @@ const Projects = () => {
         setRemoveLoading(true)
       })
       .catch(err => console.log(err));
-   }, 500);
+   }, 200);
   }, []);
 
   const handleRemove = (id) => {

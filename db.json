@@ -1,18 +1,7 @@
 {
   "projects": [
     {
-      "name": "sdfsdf",
-      "budget": "250",
-      "category": {
-        "id": "3",
-        "name": "Execução"
-      },
-      "cost": 0,
-      "services": [],
-      "id": 4
-    },
-    {
-      "name": "Housing'",
+      "name": "Housing",
       "budget": "3000",
       "category": {
         "id": "3",
@@ -21,6 +10,28 @@
       "cost": 0,
       "services": [],
       "id": 11
+    },
+    {
+      "name": "teste",
+      "budget": "3650",
+      "category": {
+        "id": "1",
+        "name": "Planejamento"
+      },
+      "cost": 0,
+      "services": [],
+      "id": 12
+    },
+    {
+      "name": "teste 2",
+      "budget": "6780",
+      "category": {
+        "id": "3",
+        "name": "Execução"
+      },
+      "cost": 0,
+      "services": [],
+      "id": 13
     }
   ],
   "categories": [
