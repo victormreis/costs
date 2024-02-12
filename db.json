@@ -2,25 +2,27 @@
   "projects": [
     {
       "name": "Housing hunting",
-      "budget": "820",
-      "category": {
-        "id": "2",
-        "name": "Desenvolvimento"
-      },
-      "cost": 0,
-      "services": [],
-      "id": 11
-    },
-    {
-      "name": "teste",
-      "budget": "820",
+      "budget": "1000",
       "category": {
         "id": "1",
         "name": "Planejamento"
       },
-      "cost": 0,
-      "services": [],
-      "id": 12
+      "cost": 315,
+      "services": [
+        {
+          "name": "sdfsdfsdf",
+          "cost": "150",
+          "description": "sdfsdfs",
+          "id": "f2a933ac-0b18-4aec-87d7-5530b8a2a8a9"
+        },
+        {
+          "name": "sdfsdfsdf",
+          "cost": "165",
+          "description": "teste",
+          "id": "a159c514-1c30-462b-82d5-0c4b0a5cd968"
+        }
+      ],
+      "id": 1
     }
   ],
   "categories": [
