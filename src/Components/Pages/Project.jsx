@@ -7,7 +7,7 @@ import ProjectForm from "../project/ProjectForm";
 import {ToastContainer, toast} from "react-toastify";
 import ServiceCard from "./service/serviceCard";
 import ServiceForm from "./service/serviceForm";
-import {parse, v4 as uuidv4} from "uuid";
+import { v4 as uuidv4} from "uuid";
 
 const Project = () => {
 	const {id} = useParams();
@@ -110,7 +110,9 @@ const Project = () => {
 		})
 			.then((response) => response.json())
 			.then((data) => {
+        console.log(data);
 				setProject(data);
+        setServices(data.services)
 				toast.success("Serviço adicionado com sucesso!");
 				setShowServiceForm(false);
 			})

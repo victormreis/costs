@@ -7,7 +7,7 @@
         "id": "1",
         "name": "Planejamento"
       },
-      "cost": 315,
+      "cost": 481,
       "services": [
         {
           "name": "sdfsdfsdf",
@@ -20,6 +20,30 @@
           "cost": "165",
           "description": "teste",
           "id": "a159c514-1c30-462b-82d5-0c4b0a5cd968"
+        },
+        {
+          "name": "teste um",
+          "cost": "15",
+          "description": "fsdfsdfsdf",
+          "id": "dfc07f86-6dd5-40a7-b79c-044811e91ab1"
+        },
+        {
+          "name": "teste 2",
+          "cost": "19",
+          "description": "sdfsdf",
+          "id": "e08a69b7-94fd-4373-b73b-5492b8a78b16"
+        },
+        {
+          "name": "teste 3",
+          "cost": "22",
+          "description": "dsfsdf",
+          "id": "338f4b4f-6632-49d1-a009-2646f20b6ee2"
+        },
+        {
+          "name": "teste 4",
+          "cost": "110",
+          "description": "dsfsdf",
+          "id": "92ede9bb-771f-4714-be94-da57591e9fd4"
         }
       ],
       "id": 1
