@@ -1,11 +1,11 @@
 {
   "projects": [
     {
-      "name": "Housing",
-      "budget": "3000",
+      "name": "Housing hunting",
+      "budget": "820",
       "category": {
-        "id": "3",
-        "name": "Execução"
+        "id": "2",
+        "name": "Desenvolvimento"
       },
       "cost": 0,
       "services": [],
@@ -13,7 +13,7 @@
     },
     {
       "name": "teste",
-      "budget": "3650",
+      "budget": "820",
       "category": {
         "id": "1",
         "name": "Planejamento"
@@ -21,17 +21,6 @@
       "cost": 0,
       "services": [],
       "id": 12
-    },
-    {
-      "name": "teste 2",
-      "budget": "6780",
-      "category": {
-        "id": "3",
-        "name": "Execução"
-      },
-      "cost": 0,
-      "services": [],
-      "id": 13
     }
   ],
   "categories": [
